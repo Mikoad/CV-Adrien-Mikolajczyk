@@ -1,10 +1,10 @@
-// let lastScrollPosition = window.scrollY;
-// window.addEventListener("scroll", () => {
-//   const currentScrollPosition = window.scrollY;
-//   if (currentScrollPosition > lastScrollPosition) {
-//     navbar.style.top = `-${navbar.offsetHeight}px`;
-//   } else {
-//     navbar.style.top = 0;
-//   }
-// });
-//
+const burgerMenu = document.getElementById("burgerMenu");
+const sidebar = document.getElementById("sidebar");
+
+burgerMenu.addEventListener("click", () => {
+  sidebar.classList.toggle("displaySidebar");
+  burgerMenu.classList.toggle("displaySidebar");
+});
+
+// const competencesDev = document.getElementById("competencesDev");
+// const competencesTools = document.getElementById("competencesTools");

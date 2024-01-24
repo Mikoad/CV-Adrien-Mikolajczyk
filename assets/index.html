@@ -21,6 +21,12 @@
   </head>
   <body>
     <header>
+      <div id="burgerMenu">
+      
+        <i class="fa-solid fa-bars"></i>
+      
+      </div>
+   
       <nav id="navbar">
         <ul>
           <li><a href="index.html">Profil</a></li>
@@ -28,8 +34,17 @@
           <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
-        </ul>
+        </ul> 
       </nav>
+     <div id="sidebar">
+      <ul>
+        <li><a href="index.html">Profil</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul> 
+     </div>
     </header>
     <main>
 
@@ -66,7 +81,7 @@
       <section>
         <h2>Compétences</h2>
         <div class="competencesContainer">
-          <div class="competences">
+          <div class="competences" id="competencesDev">
             <h3>Développement</h3>
             <div class="iconDev upSize">
               <i class="fa-brands fa-html5"></i>
@@ -84,15 +99,16 @@
 
           <div class="iconCode"><i class="fa-solid fa-code"></i></div>
 
-          <div class="competences">
+          <div class="competences" id="competencesTools">
           
             <h3>Mes Outils</h3>
           <div class="iconDev">
             
-            <i class="fa-brands fa-bootstrap"></i>
+            
             <i class="fa-brands fa-github"></i>
             <i class="fa-brands fa-wordpress"></i>
             <i class="fa-brands fa-figma"></i>
+            <i class="fa-brands fa-webflow"></i>
         </div>
         <div class="competencesText">
           <p>
@@ -182,5 +198,6 @@
         </div> 
       </section>
     </main>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
