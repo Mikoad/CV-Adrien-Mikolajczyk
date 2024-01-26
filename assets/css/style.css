@@ -88,7 +88,7 @@ nav ul {
   background: black;
   width: 250px;
   position: absolute;
-  top: 3px;
+  top: 0;
   left: -250px;
   transition: 0.2s ease-in-out;
   z-index: 3;
@@ -210,7 +210,22 @@ nav ul li:hover {
 .competences {
   padding: 10px;
 }
-
+/* #competencesDev {
+  transform: translateX(-300px);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  will-change: transform;
+}
+#competencesTools {
+  transform: translateX(300px);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  will-change: transform;
+} */
+/* .displayCompetences {
+  transform: translateX(0);
+  opacity: 1;
+} */
 .competences h3 {
   text-align: center;
 }
@@ -284,6 +299,7 @@ h3 {
 .contactContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 30px;
   padding: 10px;
   margin: 50px 0 45px 0;
@@ -391,8 +407,20 @@ h3 {
   }
 }
 @media screen and (max-width: 610px) {
+  .textPresentation {
+    border-left: none;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+  }
+  .competencesText,
+  .competences {
+    padding: 0;
+  }
   .competencesText p {
     text-align: justify;
+  }
+  .projectContainer {
+    padding: 50px 0;
   }
   .iconDev {
     width: 90%;
