@@ -349,7 +349,7 @@ h3 {
   justify-content: center;
 
   gap: 10px;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .socialMedia {
   display: flex;
@@ -384,6 +384,7 @@ h3 {
   .competencesContainer {
     display: flex;
     flex-direction: column;
+    gap: 50px;
   }
   .iconCode {
     display: none;
@@ -392,8 +393,8 @@ h3 {
     text-align: center;
   }
 
-  .gallery li {
-    max-height: 50vh;
+  .projectContent p {
+    padding: 20px 0;
   }
   .contactContainer {
     display: flex;
@@ -416,9 +417,7 @@ h3 {
   .competences {
     padding: 0;
   }
-  .competencesText p {
-    text-align: justify;
-  }
+
   .projectContainer {
     padding: 50px 0;
   }
