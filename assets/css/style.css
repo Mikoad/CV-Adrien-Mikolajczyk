@@ -154,6 +154,42 @@ nav ul li:hover {
 }
 
 /*Typewriter Animation*/
+/* .typeWriterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 3rem;
+}
+.typeWriterContainer h2,
+.typeWriterContainer span {
+  color: rgba(255, 255, 255, 0.397);
+}
+#target {
+  display: flex;
+  margin-left: 1rem;
+  position: relative;
+}
+#target::after {
+  content: "";
+  position: absolute;
+  height: 36px;
+  width: 5px;
+  background: rgba(255, 255, 255, 0.397);
+  top: 0;
+
+  right: -5px;
+  animation: anim 0.8s linear infinite;
+}
+@keyframes anim {
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
 .container {
   display: inline-block;
   padding: 20px;
@@ -284,7 +320,7 @@ h3 {
   align-items: center;
   text-align: center;
 
-  width: 400px;
+  width: 380px;
 }
 .projectImg img {
   width: 100%;
